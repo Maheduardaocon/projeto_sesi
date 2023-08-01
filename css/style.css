@@ -1,0 +1,107 @@
+/* Estilo para toda página */
+* {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+/* Para o Menu */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+ul {
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 45px;
+    font-size: 1.3rem;
+}
+
+.logo {
+    width: 70%;
+    padding: 10px;
+}
+
+.menu {
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 10%;
+    display: flex;
+}
+
+.user{
+    position: absolute;
+    right: 30px;
+}
+
+/* Para o section */
+.inicio {
+    width: 100%;
+    background-image: url(https://midias.jornalcruzeiro.com.br/wp-content/uploads/2018/12/980-107.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+
+/* div principal que está no section */
+.dv-first {
+    color: #fffefe;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    font-size: 2.0rem;
+}
+
+/* Primeiro texto */
+p {
+    font-size: 1.5rem;
+}
+
+/* botão inscreva-se */
+.btn {
+    background-color: #f60000;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.btn a{
+    background-color: #f60000;
+
+}
+
+/* imagem divisão dos botões */
+.i {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    width: 320px;
+}
+
+/* Último texto da section */
+span {
+    font-size: 1.1rem;
+}
+
+.bord3{
+    color: #ffffff;
+    border: 12px solid rgb(0, 0, 0);
+    padding: 16px;
+
+}
+
+.h4 {
+    color: white
+}
+
+
+
+
